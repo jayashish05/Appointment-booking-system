@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Appointment Booking</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo">
+        <h1>APPOINTMENT BOOKING</h1>
+      </div>
+      <nav class="navigation">
+        <a href="#" class="nav-link">HOME</a>
+        <a href="#" class="nav-link">SERVICE</a>
+        <a href="#" class="nav-link">CONTACT US</a>
+        <a href="#" class="nav-link">ABOUT</a>
+      </nav>
+      <div class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </header>
+    <main class="main-content">
+      <section class="calendar-panel">
+        <div class="calendar-header">
+          <p class="calendar-subtitle">Schedule your appointment today</p>
+          <div class="month-navigation">
+            <button class="nav-btn" id="prevMonth">&lt;</button>
+            <h2 class="current-month" id="currentMonth">May 2020</h2>
+            <button class="nav-btn" id="nextMonth">&gt;</button>
+          </div>
+        </div>
+        <div class="appointment-grid">
+          <div class="appointment-slot">
+            <label>Time Slot</label>
+            <input type="time" />
+          </div>
+          <div class="appointment-slot">
+            <label>Service Type</label>
+            <input type="text" />
+          </div>
+          <div class="appointment-slot">
+            <label>Full Name</label>
+            <input type="text" />
+          </div>
+          <div class="appointment-slot">
+            <label>Contact Number</label>
+            <input type="tel" />
+          </div>
+          <div class="appointment-slot">
+            <label>Email Address</label>
+            <input type="email" />
+          </div>
+          <div class="appointment-slot">
+            <label>Special Notes</label>
+            <input type="text" />
+          </div>
+        </div>
+      </section>
+      <section class="info-panel">
+        <div class="title-section">
+          <h1 class="main-title">ONLINE<br />APPOINTMENT<br />BOOKING</h1>
+          <p class="description">
+            Book your appointment easily with our online booking system. Choose
+            your preferred time slot, service type, and provide your contact
+            information to secure your appointment with us.
+          </p>
+          <div class="pagination-dots">
+            <span class="dot"></span>
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+      </section>
+    </main>
+    <section class="bottom-section">
+      <div class="info-cards">
+        <div class="info-card">
+          <h3>EASY BOOKING</h3>
+          <p>
+            Simple and intuitive booking process that allows you to schedule
+            appointments quickly and efficiently.
+          </p>
+        </div>
+        <div class="info-card">
+          <h3>FLEXIBLE SCHEDULING</h3>
+          <p>
+            Choose from available time slots that work best for your schedule
+            and preferences.
+          </p>
+        </div>
+        <div class="info-card">
+          <h3>INSTANT CONFIRMATION</h3>
+          <p>
+            Receive immediate confirmation of your appointment booking with all
+            the necessary details.
+          </p>
+        </div>
+      </div>
+      <button class="read-more-btn">Read More</button>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
